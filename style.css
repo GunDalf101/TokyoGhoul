@@ -1,0 +1,120 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+   margin: inherit;
+   background-color: white;
+}
+html,body {
+    height: 100%;
+}
+.app {
+    display: flex;
+    margin: 15px;
+
+    min-height: 74.70%;
+ 
+    
+}
+.screenshot {
+
+         max-width: 460px;
+}
+.description {
+
+         max-width: 880px;
+         margin: 22px;
+         margin-left: 0px;
+         font-size: 25px;
+         font-family: cursive;
+}
+.title {
+   max-width: none;
+   background-color: black;
+   color: red;
+   font-size: 50px;
+   font-family: cursive;
+   text-align: center;
+   border: 20px;
+   margin: auto;
+}
+.navbar {
+   max-width: none;
+   background-color: red;
+   color: black;
+   font-size: 30px;
+   font-family: fantasy;
+   text-align: center;
+   border: 20px;
+   margin: auto;
+   height: 40px;
+}
+a {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+video {
+    margin: 20px;
+    height: 480px;
+    width: 600px;
+}
+form {
+    height: auto;
+    width: 650px;
+
+}
+
+select {
+    width: 90%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+input {
+    width: 90%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit] {
+    max-width: 40%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+input[type=reset] {
+    max-width: 40%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+.footer {
+   max-width: none;
+   background-color: black;
+   color: white;
+   padding: 20px 0;
+   font-size: 15px;
+   font-family: inherit;
+   text-align: center;
+   height:  30px;
+   position: relative;
+}
